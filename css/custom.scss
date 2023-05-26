@@ -1,0 +1,110 @@
+$primary: rgba(71, 118, 148, 1);
+@font-face {
+    font-family: 'Rekford-Book';
+    src: url(font/Rekord-Book.woff2);
+    font-family: 'apple';
+    src: url(/font/AppleGaramond-Bold.ttf);
+}
+body{
+    font-family: Rekford;
+}
+h1, h2, h3, h4 {
+    font-family: apple;
+}
+h2, .mhp{ 
+    display: inline-block;
+    background-color: rgba(235, 130, 207, 0.1);
+    padding: 5px;
+}
+caption {
+  caption-side: top;
+}
+.table-dark {
+  --bs-table-bg: rgba(142, 194, 226, 0.605);
+}
+.table-striped {
+    color: #15324a;
+}
+
+.text-white {
+  margin: auto;
+}
+h4 {
+  font-weight: lighter;
+}
+section {
+  padding-top: 7rem;
+}
+.jumbotron-fluid {
+  background-repeat: no-repeat;
+}
+.bg-cover {
+  background-size: cover !important;
+  border-bottom:  solid 3px #15324a;
+}
+footer {
+  text-align: center;
+}
+.bg-dark {
+  background-color: rgba(245, 191, 220, 0.689) !important;
+  box-shadow:  0 2px 2px 0px  #15324a;
+}
+.bi-star-fill{
+    color: #15324a;
+}
+.text-primary {
+  color: rgba(246, 187, 227, 0.821);
+}
+
+span {
+  position: relative;
+  display: block;
+}
+
+a:hover {
+  color: hotpink;
+  transition: linear 0.3s;
+}
+.nav-link:hover {
+  color: cyan;
+}
+.btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+  margin-top: 20px;
+}
+.btn-outline-primary:hover {
+  background-color: #15324a;
+  border-color: #fff;
+  transition: 0.1s ease-in;
+}
+.btn{
+    font-family: Rekford;
+}
+.btn-primary {
+padding: 0.77em;
+  background-color: #15324a;
+  border:  solid 1px #4eafff;
+
+}
+.btn-primary:hover {
+  background-color: #2d6796;
+  transition: ease-in-out 0.5s;
+}
+a, .nav-link{
+    color: #fff;
+}
+th{
+    font-family: rekford;
+    font-weight: normal;
+}
+.form-check-input:checked{
+    background-color: #2d6796;
+}
+.text-foot{
+    font-style: italic;
+color: #15324a;
+font-family: Rekford;
+font-weight: light;
+font-size: 120%;
+}
